@@ -1,0 +1,183 @@
+/*
+* @Author: lenovo
+* @Date:   2018-05-19 23:16:29
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-05-23 19:31:34
+*/
+*{
+
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*headerstart*/
+.header{
+	height: 174px;
+	background-color:#f0f0f1;
+}
+.logo{
+		text-align: center;
+		height: 125px;
+}
+.logo img{
+	margin-top: 30px;
+}
+.nav{
+	width: 670px;
+	height: 45px;
+	background-color:white;
+	border-radius: 23px;
+	margin: 0 auto;
+}
+.nav li{
+	font-size: 14px;
+	font-family:"Microsoft YaHei";
+	float: left;
+	height: 45px;
+	background: url(../images/line.png) no-repeat right center;
+	padding: 0px 28px;
+	line-height: 45px;
+	display: inline-block;
+}
+.nav li a:hover{
+	border-bottom: 3px solid #1e50ae;
+	display: block;
+
+}
+.nav li:last-child{
+	padding: 0px 32px;
+	line-height:45px;
+	background: none;
+}
+/*banner开始*/
+.banner{
+	width: 100%;
+	height: 408px;
+	background: url(../images/back1.png) no-repeat center center;
+}
+.solve{
+	width: 1560px;
+	height: 890px;
+	background-color: #fff;
+	float: left;
+	background-color: #fff;
+}
+.solve1{
+	width: 1200px;
+	height: 890px;
+	background-color:#fff;
+	margin: 0px auto;
+}
+.h3{
+	font-family: "Microsoft YaHei";
+	padding-top: 60px;
+	font-size: 34px;
+	text-align: center;
+}.h5{
+	font-family: "Microsoft YaHei";
+	padding-top: 60px;
+	font-size: 34px;
+	text-align: center;
+	color: #fff;
+}
+.h4{
+	font-family: "Microsoft YaHei";
+	font-size: 20px;
+	padding-top: 0px;
+	text-align: center;
+}
+.h6{
+	font-family: "Microsoft YaHei";
+	font-size: 20px;
+	padding-top: 0px;
+	text-align: center;
+	color: #fff;
+}
+.sleft{
+	padding: 60px 80px 222px 54px;
+	display: block;
+	height: 145px;
+	width: 131px;
+}
+.s{
+	margin: 0px;
+	padding-top: 60px;
+	padding-bottom: 222px;
+}
+.slast{
+	padding: 60px 60px 222px 80px;
+	float: left;
+}
+.title1{
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	margin-top: 24px;
+	display: block;
+	text-align: center;
+	padding-bottom: 6px;
+	
+}
+#titlee{
+	color:#909090;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	padding-top: 9px;
+	padding-left: 25px;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bluebig.png) no-repeat center center;
+}
+.show{
+	padding-top: 72px;
+	text-align: center;
+}
+.show img{
+	margin: 0px 25px 0px 25px;
+}
+.button{
+	text-align: center;
+	padding-top: 80px;
+}
+.white{
+	width: 100%;
+	height: 950px;
+	background-color: #fff;
+
+}
+.global{
+	padding: 60px 77px 86px 115px;
+	display: inline-block;
+}
+.globalright{
+	height: 293px;
+	margin-top: 20px;
+	display: inline-block;
+	background-color: red;
+	float: top;
+}
+.g1{
+	font-family: "Microsoft YaHei";
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+.g2{
+	font-family: "Microsoft YaHei";
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+.whitebox{
+	height: 400px;
+	background-color: red;
+	margin-bottom: 95px;
+}
+.whitebox img{
+	padding-left: 180px;
+	margin-right: 80px;
+}
